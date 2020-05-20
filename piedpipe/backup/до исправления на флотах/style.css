@@ -1,0 +1,44 @@
+ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+  padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+a {text-decoration: none; /*убираем подчеркивание текста ссылок*/}
+
+
+.wrapper {
+    max-width: 1219;
+    margin: 0 auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.header {
+    background-color: #007765;    
+}
+.header_nav {
+    text-align: right;
+    padding-top: 29px;
+    padding-bottom: 29px;    
+}
+.header_logo {
+    float:left;
+    margin-top: 0.9%;
+}
+.header_nav_list li {
+    display: inline;
+    margin-right: 8px;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+a.header_link {color:white}
+}
+.header_nav_list li:last-child {
+    margin-right: 0;
+}
+.header_wrapper {
+    
+}
